@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-Italic.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-Bold.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-SemiBold.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-BoldItalic.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-MediumItalic.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-Regular.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Finlandica';
+    src: url('/fonts/finlandica/Finlandica-Medium.woff2') format('woff2'),
+        url('/fonts/finlandica/Finlandica-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/Work-sans/WorkSans-ExtraBold.woff2') format('woff2'),
+        url('/fonts/Work-sans/WorkSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/Work-sans/WorkSans-Light.woff2') format('woff2'),
+        url('/fonts/Work-sans/WorkSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/Work-sans/WorkSans-Italic.woff2') format('woff2'),
+        url('/fonts/Work-sans/WorkSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/Work-sans/WorkSans-Regular.woff2') format('woff2'),
+        url('/fonts/Work-sans/WorkSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/Work-sans/WorkSans-Bold.woff2') format('woff2'),
+        url('/fonts/Work-sans/WorkSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/Work-sans/WorkSans-Medium.woff2') format('woff2'),
+        url('/fonts/Work-sans/WorkSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/Work-sans/WorkSans-SemiBold.woff2') format('woff2'),
+        url('/fonts/Work-sans/WorkSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* AQUI LOS ESTILOS */
+
+.h1 {
+font-family: 'Finlandica';
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.h2 {
+font-family: 'Finlandica';
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.h3 {
+font-family: 'Finlandica';
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.h4{
+font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.h5{
+font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+
+}
+.header_buttons{
+font-family: 'Finlandica';
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+
+}
+.rest_of_buttons{
+    font-family: 'Work Sans';
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+
+}
+.body_regular{
+    font-family: 'Work Sans';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+
+}
+.body_semibold{
+    font-family: 'Work Sans';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+
+}
+.body_small{
+    font-family: 'Work Sans';
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: normal;
+}
+.body_caption{
+    font-family: 'Work Sans';
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+/* *{
+    border: solid 1px tomato;
+} */
+
+
+/* CAMBIOS SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #88888856; 
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5555556c; 
+  }

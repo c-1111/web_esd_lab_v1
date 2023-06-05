@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "clean": "rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.6",
+    "@types/node": "^18",
+    "nuxt": "^3.4.2"
+  },
+  "dependencies": {
+    "@carbon/icons-vue": "^10.63.0",
+    "@carbon/vue": "^2.45.1",
+    "@phosphor-icons/vue": "^2.0.1",
+    "sass": "^1.62.1",
+    "swiper": "^9.3.2",
+    "vue3-perfect-scrollbar": "^1.6.1"
+  }
+}
